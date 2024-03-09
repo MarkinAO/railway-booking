@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1095px;
+    padding-bottom: 8px;
+    color: #FFFFFF;
+    background-color: #FFA800;
+    background-image: url("../../assets/images/header-main.png");
+    background-position: center bottom 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;        
+        height: 100%;
+
+        .logo {
+            padding: 10px 290px;
+        }
+
+        .navigate {
+            display: flex;
+            gap: 105px;
+            padding: 34px 290px;
+            font-size: 32px;        
+            background-color: #292929;
+        }
+    }    
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        height: 720px;
+
+        .text {
+            font-size: 80px;
+            font-weight: thin;
+
+            span {
+                display: block;
+                font-weight: bold;
+            }
+        }
+        .booking {
+            align-self: flex-end;
+        }
+    }
+}
+
